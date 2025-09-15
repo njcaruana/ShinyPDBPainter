@@ -7,7 +7,7 @@
 
 ## Description
 
-**ShinyPDBPainter** is an add on to ShinyNGLVieweR by [GitHub](https://github.com/nvelden) provides an R interface to the [NGL.js](http://nglviewer.org/ngl/api/) JavaScript library. It can be used to visualize and interact with protein data bank (PDB) and structural files in R and Shiny applications. It includes a set of API functions to manipulate the viewer after creation and makes it possible to retrieve data from the visualization into R.
+**ShinyPDBPainter** is an add on to ShinyNGLVieweR by [nvelden](https://github.com/nvelden) provides an R interface to the [NGL.js](http://nglviewer.org/ngl/api/) JavaScript library. It can be used to visualize and interact with protein data bank (PDB) and structural files in R and Shiny applications. It includes a set of API functions to manipulate the viewer after creation and makes it possible to retrieve data from the visualization into R.
 
 Please note: This is a version of nveldens NGLVieweR with an updated NGL.js file due to compatibility issues with the removal of the PDB legacy files. 
 This to ensure the package ShinyPDBPainter correctly works and this version of NGLvieweR will be removed once the original is updated. 
