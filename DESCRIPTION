@@ -1,0 +1,46 @@
+Package: ShinyPDBPainter
+Title: Proteomics painter of 3D Molecular Structures
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Nikeisha",
+           family = "Caruana",
+           role = c("aut", "cre"),
+           email = "nikeisha.caruana@unimelb.edu.au")
+Description: Provides an 'htmlwidgets' <https://www.htmlwidgets.org/> interface to 'NGL.js' <http://nglviewer.org/ngl/api/>, specially built from ShinyNGLVieweR from nvelden <https://github.com/nvelden/shinyNGLVieweR/tree/master/R>.
+    'ShinyPDBPainter' can be used to visualize and interact with protein databank ('PDB') and structural files in R and Shiny applications, specially to paint protein complexes using proteomics data. 
+    It includes a set of API functions to manipulate the viewer after creation in Shiny.
+License: What license is it under?
+Imports:
+    htmlwidgets,
+    magrittr,
+    tools,
+    shiny,
+    RcppSimdJson,
+    dplyr,
+    tidyr,
+    httr,
+    r2d3,
+    uuid,
+    shinyjs,
+    purrr,
+    scales,
+    stringr,
+    colourpicker,
+    htmltools,
+    shinyWidgets,
+    bsplus,
+    readr,
+    shinydashboard,
+    shinydashboardPlus,
+    shinyjqui,
+    golem,
+Suggests:
+    knitr,
+    webshot,
+    markdown,
+    rmarkdown,
+Remotes:
+    njcaruana/NGLVieweR,
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
