@@ -7,7 +7,7 @@
 mod_fcPainter_ui(id)
 }
 \arguments{
-\item{input, output, session}{Internal parameters for {shiny}. DO NOT REMOVE.#'}
+\item{input, output, session}{Internal parameters for {shiny}. DO NOT REMOVE.}
 }
 \description{
 A UI module for the PDBPainter feature, including file upload

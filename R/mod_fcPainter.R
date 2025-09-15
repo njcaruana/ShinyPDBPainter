@@ -3,7 +3,7 @@
 #' @description A UI module for the PDBPainter feature, including file upload
 #'   and color range selection.
 #'
-#' @param input,output,session Internal parameters for {shiny}. DO NOT REMOVE.#'
+#' @param input,output,session Internal parameters for {shiny}. DO NOT REMOVE.
 #' @export
 mod_fcPainter_ui <- function(id) {
   ns <- NS(id)
